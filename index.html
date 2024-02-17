@@ -6,39 +6,53 @@
 
     <style>
         /*
-            pseudo class selectors- part02
+            pseudo element selectors
             select a part of an element
         */
-        /*li:first-child{
-            color: red;
+        h1::before{
+            content: "Let's say ";
         }
-        li:last-child{
-            color: aqua;
+        h1::after{
+            content: "🤣";
         }
-        li:nth-child(4){
-            color: greenyellow;
+        h3::first-letter{
+          color: dodgerblue;
         }
-        li:nth-child(3){
-            color: lightsalmon;
-        }*/
-        li:nth-last-child(1){
-            color: red;
+        p::first-line{
+            color: deepskyblue;
+            font-weight: bolder;
+        }
+        input::placeholder{
+            color: lightcoral;
+        }
+        input::file-selector-button{
+            background: orange;
+        }
+        /*pseudo element selector should be before pseudo class selector*/
+        input::file-selector-button:hover{
+            background: green;
         }
     </style>
 
 </head>
 
 <body>
+    <h1>Hello CSS</h1>
 
-    <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>GO</li>
-        <li>C</li>
-        <li>C++</li>
-        <li>C#</li>
-    </ul>
+    <h3>Welcome to IJSE</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum dolor dolorem dolores ducimus eius eligendi est facilis in magnam maxime nihil officiis optio repellendus reprehenderit suscipit temporibus, totam, vitae.
+    </p>
+    <form>
+        <input type="text" placeholder="Enter your ID"><br><br>
 
-
+        <input type="file" placeholder="Choose file">
+    </form>
 </body>
 </html>
