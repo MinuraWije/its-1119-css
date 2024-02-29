@@ -3,62 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
     <style>
-        ul>li:first-of-type>ol>li:first-of-type{
-            color: red;
+        body{
+            overflow: hidden;
         }
-        ul>li:first-of-type>ol>li:nth-child(2){
-            color: orange;
+        section{
+            width: 100%;
+            height: 100%;
+            /*position: relative;*/
         }
-        ul>li:first-of-type>ol>li{
-            color: deeppink;
+        #div1{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
         }
-        ul>li:nth-child(2)>ol>li:first-of-type>ol>li:nth-child(3)>ul>li:nth-child(2){
-            color: blue;
+        #div2{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+
+            background-color: green;
+            position: absolute;
+            right: 0px;
         }
-        ul>li:nth-child(2)>ol>li:first-of-type>ol>li:last-of-type{
-            color: green;
+        #div3{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+
+            background-color: orange;
+            position: absolute;
+            bottom: 0px;
+        }
+        #div4{
+            width: 50%;
+            height: 50%;
+            aspect-ratio: 1/1;
+
+            background-color: deeppink;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+        #div5{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        #div6{
+            width: 100px;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div7{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div8{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div9{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div10{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div11{
+            width: 70px;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        #div12{
+            width: 70px;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        #div13{
+            width: 70px;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        #div14{
+            width: 70px;
+            aspect-ratio: 1/1;
+
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        #div15{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: -100px;
+            top: -100px;
+            border-radius: 50%;
+        }
+        #div16{
+            width: 200px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            right: -100px;
+            top: -100px;
+            border-radius: 50%;
+        }
+        #div17{
+             width: 200px;
+             aspect-ratio: 1/1;
+
+             background-color: white;
+             position: absolute;
+             left: -100px;
+             bottom: -100px;
+             border-radius: 50%;
+        }
+        #div18{
+              width: 200px;
+              aspect-ratio: 1/1;
+
+              background-color: white;
+              position: absolute;
+              right: -100px;
+              bottom: -100px;
+              border-radius: 50%;
+        }
+        #div19{
+            width: 150px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            top: -75px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #div20{
+            width: 150px;
+            aspect-ratio: 1/1;
+
+            background-color: white;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            bottom: -75px;
+            margin: auto;
+            border-radius: 50%;
         }
     </style>
 
 </head>
 <body>
-<ul>
-    <li>
-        Java
-        <ol>
-            <li>Java Basics</li>
-            <li>JavaEE</li>
-            <li>Java Spring Boot</li>
-            <li>MySql</li>
-        </ol>
-    </li>
-    <li>
-        UI Technologies
-        <ol>
-            <li>HTML
-                <ol>
-                    <li>Introduction to HTML</li>
-                    <li>HTML Text Formatting</li>
-                    <li>
-                        HTML Multimedia
-                        <ul>
-                            <li>Add Images</li>
-                            <li>Add Videos</li>
-                            <li>Add Audios</li>
-                        </ul>
-                    </li>
-                    <li>HTML Forms</li>
-                    <li>HTML Tables</li>
-                </ol>
-            </li>
-            <li>CSS</li>
-            <li>JS</li>
-        </ol>
-    </li>
-    <li>
-        AWS and ML
-    </li>
-</ul>
+    <section>
+        <div id="div1">
+            <div id="div7">
+                <div id="div11"></div>
+            </div>
+        </div>
+        <div id="div2">
+            <div id="div8">
+                <div id="div12"></div>
+            </div>
+        </div>
+        <div id="div3">
+            <div id="div9">
+                <div id="div13"></div>
+            </div>
+        </div>
+        <div id="div4">
+            <div id="div10">
+                <div id="div14"></div>
+            </div>
+        </div>
+        <div id="div5"></div>
+        <div id="div6"></div>
+
+        <div id="div15"></div>
+        <div id="div16"></div>
+        <div id="div17"></div>
+        <div id="div18"></div>
+        <div id="div19"></div>
+        <div id="div20"></div>
+    </section>
 </body>
 </html>
