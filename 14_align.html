@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-02</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        div{
+            background-color: lightslategray;
+            height: 500px;
+            display: flex;
+            /*flex-direction: column-reverse;*/
+            justify-content: space-around;
+        }
+        div>div:nth-child(1){
+            width: 100px;
+            height: 100px;
+            background-color: lightskyblue;
+            align-self: center; /*start, center, end*/
+        }
+        div>div:nth-child(2){
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: lightpink;
+        }
+        div>div:nth-child(3){
+            width: 100px;
+            height: 100px;
+            aspect-ratio: 1/1;
+            background-color: lightcoral;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+</div>
+</body>
+</html>
